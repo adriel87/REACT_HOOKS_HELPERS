@@ -1,10 +1,7 @@
 ## ejemplo de uso
 
 ```javascript
-
-  const {counter, increment, decrement, reset} = useCounter(10);
+const url = 'https://tuendpoint.com'
+  const { data:null,loading:true,error:null} = useFetch(url);
 
 ```
-
-
-userCounter() recibe un valor por defecto
